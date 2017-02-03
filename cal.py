@@ -187,7 +187,7 @@ class Main(QtGui.QMainWindow):
         pows.move(170,185)
         pows.resize(35,30)
        
-        about = QtGui.QPushButton("deaDCalculator",self)
+        about = QtGui.QPushButton("KUSHCalculator",self)
         about.move(0,325)
         about.resize(220,20)
         about.setStyleSheet("color:red;background-color:black;")
@@ -234,7 +234,7 @@ class Main(QtGui.QMainWindow):
          
         self.setGeometry(300,300,215,340)
         self.setFixedSize(215,340)
-        self.setWindowTitle("deaDCalculator")
+        self.setWindowTitle("KUSHCalculator")
         self.setWindowIcon(QtGui.QIcon("ca.jpg"))
         self.show()
  
@@ -507,7 +507,7 @@ class Main(QtGui.QMainWindow):
 
     def About(self):
         self.line.clear()
-        self.line.setText("made by Shourya Shashank")
+        self.line.setText("made by KUSHAL")
 
   
  
